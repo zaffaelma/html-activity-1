@@ -14,7 +14,7 @@
     body {
       h1{font-family: "Roboto", sans-serif;
     }
-      h3{font-family: "Roboto", sans-serif;
+      h2{font-family: "Roboto", sans-serif;
     }
     line-height: 1.5em;
     }
@@ -41,14 +41,12 @@
       font-family: "Roboto", sans-serif;
     }
 
-    #dua img {
-      float: left;
-      margin-right: 3px;
-    }
-
-    #dua p {
-      color: gray;
-      font-size: 10px;
+    #dua {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
     }
 
   </style>
@@ -66,11 +64,32 @@
 
         <hr/>
       </div>
-      <div id="dua">
-        <img src="clap.png" width="20px"/>
-        <p>670</p>
-        <hr>
+
+      <div class="button">
+        <div class="icon1">
+            <img src="clap.png" width="20px"/>
+            <p style="color: gray; font-size: 10px;">670</p>
+        </div>
+
+        <div class="icon2">
+            <img src="speech-bubble.png" width="15px"/>
+            <p style="color: gray; font-size: 10px;">3</p>
+        </div>
+
+        <div class="icon3">
+            <img src="bookmark.png" width="15px"/>
+        </div>
+
+        <div class="icon4">
+            <img src="play-alt.png" width="15px"/>
+        </div>
+
+        <div class="icon4">
+            <img src="upload.png" width="15px"/>
+        </div>
+
       </div>
+      <hr>
     </section>
 
     <p><i>Co-written by: <span style="color: green;">Eirik Folkestad</span>, <span style="color: green;">Manu Gopinathan</span> & <span style="color: green;">Øyvind Nygard</span></spam></i></p>
